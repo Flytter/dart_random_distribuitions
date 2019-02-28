@@ -1,0 +1,12 @@
+name: random_distribuitions
+version: 0.0.1
+description: This is a api to gerenate random numbers using gammavariate, expovariate and possion distribuitions.
+author: Daniel Beserra Pinto Bandeira <bandeirapbdaniel@gmail.com>
+homepage: https://github.com/danielbandeir/dart_random_distribuitions
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dev_dependencies:
+  path: '>=1.0.0 <2.0.0'
+  test: '>=0.12.0 <0.13.0'
