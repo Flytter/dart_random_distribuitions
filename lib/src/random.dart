@@ -2,7 +2,15 @@ import 'dart:math';
 
 class random{
 
-  double uniform(int a, int b){
+  double uniform(dynamic a, dynamic b){
+
+    /*
+      UNIFORM DISTRIBUTION
+
+      This is the uniform distribution where 1/(a-b)
+    
+     */
+
 
     var generate = new Random();
 
@@ -10,12 +18,21 @@ class random{
     if(a>b){
       throw StateError('a>=b, the normal is b>a');
     }
-
-    
-    return (1/(b-a))*generate.nextDouble();
+    return (generate.nextDouble()/(b-a));
 
   }
 
-  
+  double expovariate(double lambda){
+
+      /*
+      EXPONENTIAL DISTRIBUITION
+
+      This is the uniform distribution where -(1/lambda)
+    
+     */
+
+    return -(log(this.uniform(0, 1))/lambda);
+  }
+
 
 }
