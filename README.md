@@ -29,4 +29,44 @@ void main(){
 
 ```
 
+# Uniform
+
+This is the first function that we have, we generate random numbers when a <= x <= b, 1/(b-a)
+
+```Dart
+
+library random_distribuitions;
+
+import 'package:random_distribuitions/src/random.dart';
+
+void main(){
+
+  var testUniform = random();// call the random class
+
+  print(testUniform.uniform(1,2));// a = 1 and b = 2
+
+}
+
+```
+
+# Expovariate
+
+This is a distribution using exponential distribuition, -(log(uniform)/lambda)
+
+```Dart
+
+library random_distribuitions;
+
+import 'package:random_distribuitions/src/random.dart';
+
+void main(){
+
+  var rand = new random();//call the random class
+
+  print(rand.expovariate(3));//3 is the lambda
+
+}
+
+```
+
 
