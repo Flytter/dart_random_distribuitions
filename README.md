@@ -1,5 +1,7 @@
 # random_distributions
 
+[![Pub Package](https://img.shields.io/badge/pub-0.0.2-blue.svg)](https://pub.dartlang.org/packages/random_distribuitions)
+
 This is a Library for Dart to generate random numbers usings N distributions, like uniform, normal.
 
 
