@@ -7,7 +7,7 @@ This is a Library for Dart to generate random numbers usings N distributions, li
 
 Use this command to impor the library in your program.
 
-```
+```Dart
 import 'package:random_distribuitions/src/random.dart';
 ```
 
